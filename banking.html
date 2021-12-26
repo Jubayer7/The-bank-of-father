@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking site</title>
+    <link rel="stylesheet" href="banking.css">
 </head>
 <body>
-    <h2>The Banking Site</h2>
+    <header> 
+       <h1>Let's Go for <span>money</span> !!!</h1>
+    </header>
+
+   <main>
+       <!-- Balance and Transaction -->
+       <section>
+           <div class="container">
+            <div class="deposite"> 
+                <h3>Deposite</h3>
+                <h2>$<span id="deposit-total">00</span></h2> 
+            </div>
+            <div class="withdraw"> 
+                <h3>Withdraw</h3>
+                <h2>$<span>00</span></h2> 
+            </div>
+            <div class="balance"> 
+                <h3> Total Balance</h3>
+                <h2>$<span id="total-balance">00</span></h2> 
+            </div>
+           </div>
+       </section>
+       <!-- Deposit and Withdraw -->
+       <section>
+           <div class="container2">
+               <div class="deposite2">
+                    <h2>Please Deposite</h2>
+                    <input id="deposit-input" type="text" placeholder="Amount you want to deposite"><br>
+                    <button id="deposite-btn">Deposite</button>
+               </div>
+               <div class="withdraw2">
+                    <h2>Please Withdraw</h2>
+                    <input id="withdraw-input" type="text" placeholder="Amount you want to withdraw"><br>
+                    <button id="withdraw-btn">Withdraw</button>
+               </div>
+              
+           </div>
+       </section>
+       <script src="js/banking.js"></script>
+   </main>
 </body>
-</html>
+</html>z`
