@@ -118,3 +118,10 @@ section {
   border: 1px solid gray;
   border-radius: 5px;
 }
+
+/* media Queries */
+@media screen and (min-width: 576px) {
+  .container {
+    background-color: red;
+  }
+}
